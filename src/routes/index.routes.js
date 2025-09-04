@@ -2,8 +2,6 @@ import express from "express";
 
 // Importar todas as rotas
 import authRouter from "./auth.routes.js";
-
-
 import characterRouter from "./characterRoutes.js";
 import eastereggRouter from "./eastereggRoutes.js";
 
