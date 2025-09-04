@@ -88,3 +88,18 @@ model User {
 
   @@map("users")
 }
+
+
+model Character {
+   id          Int     @id @default(autoincrement())
+  name        String
+  description String
+  age         Int
+  firstEp     String
+  alive       Boolean 
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@map("characters")
+}
