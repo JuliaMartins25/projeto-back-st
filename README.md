@@ -75,6 +75,7 @@ src/
 ```json
 {
   "name": "Eleven",
+  "image": "/https.eleven.image",
   "description": "Menina com poderes telecinéticos (descrição mais completa)",
   "age": 14,
   "firstEp": "S01E01",
@@ -98,6 +99,9 @@ src/
 ```json
 {
   "title": "O Mundo Invertido",
+  "image": "/https.imagem",
   "theories": "Conexão com dimensões paralelas",
   "facts": "Aparece desde a primeira temporada",
   "secrets": "Ligado aos experimentos do laboratório Hawkins"
+  }
+```

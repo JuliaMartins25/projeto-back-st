@@ -13,8 +13,6 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
-
 model User {
   id       Int    @id @default(autoincrement())
   name     String
@@ -27,14 +25,14 @@ model User {
   @@map("users")
 }
 
-
 model Character {
-   id          Int     @id @default(autoincrement())
+  id          Int     @id @default(autoincrement())
+  image       String
   name        String
   description String
   age         Int
   firstEp     String
-  alive       Boolean 
+  alive       Boolean
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
@@ -43,12 +41,12 @@ model Character {
 }
 
 model Easteregg {
-   id          Int     @id @default(autoincrement())
-  title      String?
-  secrets     String?
-  facts       String?
-  theories    String?
-
+  id       Int     @id @default(autoincrement())
+  image   String
+  title    String
+  secrets  String?
+  facts    String?
+  theories String?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

@@ -26,10 +26,11 @@ class CharacterModel {
   }
 
   // Criar uma nova coleção
-  async create(name, description, age, firstEp, alive) {
+  async create(name, image, description, age, firstEp, alive) {
     const novopersonagem = await prisma.character.create({
       data: {
         name,
+        image,
         description,
         age,
         firstEp,
@@ -41,7 +42,7 @@ class CharacterModel {
   }
 
   // Atualizar uma coleção
-  async update(id, name, description, age, firstEp, alive) {
+  async update(id, name, image, description, age, firstEp, alive) {
     const personagem = await this.findById(id);
 
     if (!personagem) {
@@ -51,6 +52,9 @@ class CharacterModel {
     // Atualize a coleção existente com os novos dados
     if (name !== undefined) {
       name = name;
+    }
+    if (image !== undefined) {
+      image = image;
     }
     if (description !== undefined) {
       description = description;
@@ -71,6 +75,7 @@ class CharacterModel {
       },
       data: {
         name,
+        image,
         description,
         age,
         firstEp,

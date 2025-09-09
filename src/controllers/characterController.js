@@ -34,10 +34,10 @@ class CharacterController {
   async createCharacter(req, res) {
     try {
       // Validação básica
-      const { name, description, age, firstEp, alive} = req.body;
+      const { name, image, description, age, firstEp, alive} = req.body;
 
       // Verifica se todos os campos da coleção foram fornecidos
-      if (!name || !description || !age || !firstEp || !alive) {
+      if (!name || !image || !description || !age || !firstEp || !alive) {
         return res.status(400).json({
           error: "Todos os campos são obrigatórios",
         });
@@ -46,6 +46,7 @@ class CharacterController {
       // Criar a nova coleção
       const newCharacter = await CharacterModel.create(
         name,
+        image,
         description,
         age,
         firstEp,
@@ -70,12 +71,13 @@ class CharacterController {
   async updateCharacter(req, res) {
     try {
       const { id } = req.params;
-      const { name, description, age, firstEp, alive } = req.body;
+      const { name, image, description, age, firstEp, alive } = req.body;
 
       // Atualizar a coleção
       const updatedCharacter = await CharacterModel.update(
         id,
         name,
+        image,
         description,
         age,
         firstEp,

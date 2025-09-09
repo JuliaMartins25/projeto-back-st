@@ -34,14 +34,21 @@ class EastereggController {
   async createEasteregg(req, res) {
     try {
       // Validação básica
-      const { title, theories, facts, secrets} = req.body; 
+      const { title, image, theories, facts, secrets } = req.body;
 
+       // Verifica se todos os campos da coleção foram fornecidos
+      if ( !image || !title ) {
+        return res.status(400).json({
+          error: "Imagem e Titulo são obrigatórios",
+        });
+      }
       // Criar a nova coleção
       const newEasteregg = await EastereggModel.create(
         title,
-       theories, 
-       facts, 
-       secrets
+        image,
+        theories,
+        facts,
+        secrets
       );
 
       if (!newEasteregg) {
@@ -62,14 +69,15 @@ class EastereggController {
   async updateEasteregg(req, res) {
     try {
       const { id } = req.params;
-      const { title, theories, facts, secrets } = req.body;
+      const { title, image, theories, facts, secrets } = req.body;
 
       // Atualizar a coleção
       const updatedEasteregg = await EastereggModel.update(
         id,
         title,
-        theories, 
-        facts, 
+        image,
+        theories,
+        facts,
         secrets
       );
 

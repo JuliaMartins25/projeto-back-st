@@ -26,13 +26,14 @@ class EastereggModel {
   }
 
   // Criar uma nova coleção
-  async create(title, theories, facts, secrets ) {
+  async create(title, image, theories, facts, secrets) {
     const novoeasteregg = await prisma.easteregg.create({
       data: {
-       title,
-       theories, 
-       facts, 
-       secrets
+        title,
+        image,
+        theories,
+        facts,
+        secrets
       },
     });
 
@@ -40,7 +41,7 @@ class EastereggModel {
   }
 
   // Atualizar uma coleção
-  async update(id, title, theories, facts, secrets) {
+  async update(id, image, title, theories, facts, secrets) {
     const misterio = await this.findById(id);
 
     if (!misterio) {
@@ -48,6 +49,12 @@ class EastereggModel {
     }
 
     // Atualize a coleção existente com os novos dados
+    if (title !== undefined) {
+      title = title;
+    }
+    if (image !== undefined) {
+      image = image;
+    }
     if (title !== undefined) {
       title = title;
     }
@@ -67,8 +74,9 @@ class EastereggModel {
       },
       data: {
         title,
-        theories, 
-        facts, 
+        image,
+        theories,
+        facts,
         secrets
       },
     });
