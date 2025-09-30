@@ -16,11 +16,11 @@ async function main() {
   const personagens = await Promise.all([
     prisma.character.create({
       data: {
-        name: "Onze",
+        name: "Onze (Jane Ives / Jane Hopper)",
         image: "https://i.pinimg.com/736x/e8/b4/7c/e8b47caee1c0f6eda6e22b27933f6ee2.jpg",
-        description: "Ex-cobaia do Laboratório Hawkins com poderes telecinéticos e telepáticos. Filha adotiva de Jim Hopper.",
-        age: 14,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        description: "Onze, também conhecida como Jane, é a personagem central de Stranger Things. Criada em laboratório e usada como cobaia em experimentos de manipulação mental e telecinese, ela cresce isolada do mundo real. Seu primeiro contato com a amizade e o afeto acontece com Mike, Dustin e Lucas, quando foge do Laboratório de Hawkins. Dotada de poderes psíquicos extraordinários, ela se torna a principal arma contra as ameaças do Mundo Invertido. Ao longo da série, evolui de uma garota frágil e traumatizada para uma jovem determinada, que luta pela própria identidade, pelos amigos e pelo direito de viver uma vida comum.",
+        age: 16,
+        firstEp: "S01E01",
         alive: true
       }
     }),
@@ -29,9 +29,9 @@ async function main() {
       data: {
         name: "Mike Wheeler",
         image: "https://i.pinimg.com/736x/9b/b6/ff/9bb6ff36f329e06baf9bb922d75b531b.jpg",
-        description: "Líder do grupo, Dungeon Master e namorado da Onze. Irmão da Nancy Wheeler.",
-        age: 15,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        description: "Mike é um dos protagonistas do grupo de amigos de Hawkins e o primeiro a acolher Onze quando ela aparece em sua vida. Ele é leal, corajoso e muitas vezes funciona como a “cola” que mantém a amizade entre o grupo unida. Apesar de ser impulsivo em alguns momentos, Mike demonstra maturidade ao se preocupar constantemente com seus amigos, especialmente Will e Eleven. O romance entre ele e Onze é um dos arcos emocionais mais marcantes da série, representando tanto o despertar da adolescência quanto o poder da confiança e do amor em meio ao caos.",
+        age: 16,
+        firstEp: "S01E01",
         alive: true
       }
     }),
@@ -40,8 +40,8 @@ async function main() {
       data: {
         name: "Max Mayfield",
         image: "https://i.pinimg.com/1200x/40/af/e7/40afe7298ae5d2fcbfc0bdf16983eed8.jpg",
-        description: "Skatista rebelde, enteada de Billy Hargrove. Sobreviveu ao ataque de Vecna.",
-        age: 15,
+        description: "Max é introduzida na segunda temporada como a “nova garota” da cidade. Inicialmente enfrentando resistência do grupo, ela logo conquista seu espaço com sua personalidade forte e espírito independente. Max é habilidosa em jogos de arcade e mostra-se destemida diante de situações sobrenaturais, mesmo que carregue consigo um histórico familiar difícil, marcado pelo relacionamento abusivo com seu meio-irmão, Billy. Na quarta temporada, ela se torna uma das personagens centrais na luta contra Vecna, enfrentando seus próprios traumas de forma corajosa.",
+        age: 16,
         firstEp: "Season 2, Chapter 1: MADMAX",
         alive: true
       }
@@ -51,9 +51,9 @@ async function main() {
       data: {
         name: "Will Byers",
         image: "https://i.pinimg.com/1200x/b0/d5/b7/b0d5b7beae5bb9616b19a2fa1f5e57a5.jpg",
-        description: "Garoto sensível que foi sequestrado para o Mundo Invertido. Possui conexão com o Mind Flayer.",
-        age: 15,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        description: "O desaparecimento de Will na primeira temporada é o estopim da trama de Stranger Things. Preso no Mundo Invertido, ele passa por experiências traumáticas que o deixam com uma conexão permanente com aquela dimensão sombria. Sensível e criativo, Will é apaixonado por desenhos e jogos de RPG, mas sua inocência é marcada pela dor de ter sido alvo das forças sobrenaturais. Ao longo da série, ele luta para se readaptar à vida normal, ao mesmo tempo em que serve como uma espécie de “ponte viva” entre Hawkins e o Mundo Invertido.",
+        age: 16,
+        firstEp: "S01E01",
         alive: true
       }
     }),
@@ -62,9 +62,9 @@ async function main() {
       data: {
         name: "Lucas Sinclair",
         image: "https://i.pinimg.com/1200x/9f/ff/37/9fff374346f933fcf24ed51f88a0e506.jpg",
-        description: "Membro pragmático do grupo, jogador de basquete. Namorado de Max Mayfield.",
-        age: 15,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        description: "Lucas é conhecido por seu pragmatismo e ceticismo, muitas vezes servindo como a voz da razão dentro do grupo. No início, é o mais desconfiado em relação a Onze, mas com o tempo passa a reconhecê-la como parte essencial da equipe. Ele é determinado e mostra grande habilidade em situações de combate, não hesitando em arriscar-se para proteger os amigos. Seu relacionamento com Max adiciona uma camada emocional importante à sua trajetória, mostrando sua capacidade de crescer e amadurecer.",
+        age: 16,
+        firstEp: "S01E01",
         alive: true
       }
     }),
@@ -73,9 +73,9 @@ async function main() {
       data: {
         name: "Dustin Henderson",
         image: "https://i.pinimg.com/1200x/31/12/fd/3112fd835dba2da3ecfdec9e501d2f1e.jpg",
-        description: "Jovem inteligente e carismático, entusiasta de ciências e tecnologia. Melhor amigo do grupo.",
+        description: "Carismático e engraçado, Dustin é o coração leve do grupo. Ele se destaca por sua inteligência, curiosidade científica e capacidade de encontrar soluções criativas para os problemas. Apesar de ser muitas vezes alvo de piadas por causa de sua condição médica (displasia cleidocraniana, que afeta seus dentes), ele nunca perde o bom humor. Sua amizade improvável com Steve Harrington é uma das mais queridas pelos fãs, mostrando como Dustin é capaz de criar laços fortes com pessoas fora de seu círculo inicial.",
         age: 15,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        firstEp: "S01E01",
         alive: true
       }
     }),
@@ -84,7 +84,7 @@ async function main() {
       data: {
         name: "Joyce Byers",
         image: "https://i.pinimg.com/736x/7b/f2/bd/7bf2bd207fa1866867c68149a807efe5.jpg",
-        description: "Mãe protetora de Will e Jonathan. Trabalha em várias profissões e namora Jim Hopper.",
+        description: "Joyce é uma das personagens mais resilientes da série. Mãe solteira de Will e Jonathan, ela enfrenta o desaparecimento de seu filho mais novo com uma mistura de desespero e determinação. Mesmo quando todos ao seu redor duvidam dela, Joyce insiste em seguir seus instintos, que a levam a descobrir a existência do Mundo Invertido. Sua coragem e intuição a tornam uma figura central na luta contra as ameaças sobrenaturais, sempre colocando os filhos em primeiro lugar, mesmo diante do perigo mortal.",
         age: 45,
         firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
         alive: true
@@ -292,7 +292,7 @@ async function main() {
     prisma.character.create({
       data: {
         name: "Fred Benson",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/d/d3/Fredbenson.png/revision/latest/thumbnail/width/360/height/360?cb=20220603153559&path-prefix=fr",
+        image: "https://i.pinimg.com/736x/d0/df/e5/d0dfe5d1e0edd21d02503ebb9ce12df1.jpg",
         description: "Colega jornalista de Nancy Wheeler, segunda vítima de Vecna.",
         age: 17,
         firstEp: "Season 4, Chapter 1: The Hellfire Club",
@@ -370,11 +370,11 @@ async function main() {
 
     prisma.character.create({
       data: {
-        name: "Ken",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/placeholder.jpg",
-        description: "Personagem secundário, aparece brevemente na série.",
+        name: "Keith",
+        image: "https://i.pinimg.com/1200x/18/b8/9b/18b89b9318c8eaac629c769a4933ae60.jpg",
+        description: "fazer",
         age: 30,
-        firstEp: "Season 1, Chapter 5: Chapter Five: The Flea and the Acrobat",
+        firstEp: "https://i.pinimg.com/1200x/18/b8/9b/18b89b9318c8eaac629c769a4933ae60.jpg",
         alive: true
       }
     }),
@@ -382,7 +382,7 @@ async function main() {
     prisma.character.create({
       data: {
         name: "Larry Kline",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/placeholder.jpg",
+        image: "https://i.pinimg.com/1200x/42/8a/31/428a3164de422eb91980349073b3a475.jpg",
         description: "Prefeito corrupto de Hawkins na 3ª temporada, envolvido com os russos.",
         age: 50,
         firstEp: "Season 3, Chapter 1: Suzie, Do You Copy?",
@@ -393,7 +393,7 @@ async function main() {
     prisma.character.create({
       data: {
         name: "Lonnie Byers",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/placeholder.jpg",
+        image: "https://i.pinimg.com/736x/1f/c0/75/1fc075be582235db7f5f828b025f4087.jpg",
         description: "Ex-marido abusivo de Joyce, pai biológico de Jonathan e Will.",
         age: 48,
         firstEp: "Season 1, Chapter 3: Chapter Three: Holly, Jolly",
@@ -403,19 +403,8 @@ async function main() {
 
     prisma.character.create({
       data: {
-        name: "Marsha Holland",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/placeholder.jpg",
-        description: "Mãe de Barbara Holland, buscou justiça pela morte da filha.",
-        age: 45,
-        firstEp: "Season 1, Chapter 6: Chapter Six: The Monster",
-        alive: true
-      }
-    }),
-
-    prisma.character.create({
-      data: {
         name: "Murray Bauman",
-        image: "https://static.wikia.nocookie.net/herois/images/d/dd/Murray2.jpg/revision/latest/thumbnail/width/360/height/360?cb=20221123223135&path-prefix=pt-br",
+        image: "https://i.pinimg.com/736x/67/7d/06/677d063527362ab1a8527fc3e60cd13c.jpg",
         description: "Jornalista investigativo paranóico e teórico da conspiração. Aliado importante do grupo.",
         age: 50,
         firstEp: "Season 2, Chapter 5: Dig Dug",
@@ -437,7 +426,7 @@ async function main() {
     prisma.character.create({
       data: {
         name: "Neil Hargrove",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/placeholder.jpg",
+        image: "https://i.pinimg.com/736x/0a/e7/12/0ae712f71a632589bf775a617dcb3c6c.jpg",
         description: "Pai abusivo de Billy Hargrove e padrasto de Max.",
         age: 45,
         firstEp: "Season 2, Chapter 4: Chapter Four: Will the Wise",
@@ -448,11 +437,22 @@ async function main() {
     prisma.character.create({
       data: {
         name: "O Monstro",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/placeholder.jpg",
+        image: "https://i.pinimg.com/736x/00/fb/c7/00fbc71230d11c172e6a9d3ec470a767.jpg",
         description: "Referência geral às criaturas do Mundo Invertido.",
         age: 1000,
         firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
         alive: false
+      }
+    }),
+
+    prisma.character.create({
+      data: {
+        name: "Vecna",
+        image: "https://i.pinimg.com/1200x/5c/1c/29/5c1c2953c229f67056a84255d9d0422e.jpg",
+        description: "fazer",
+        age: 1000,
+        firstEp: "Season 4, Chapter 1: terminar",
+        alive: true
       }
     }),
 
@@ -461,7 +461,7 @@ async function main() {
     prisma.character.create({
       data: {
         name: "Patrick McKinney",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/9/94/Patrick_S4_Portal.jpg",
+        image: "https://i.pinimg.com/736x/70/a9/d4/70a9d4b04d90233cb35cdd58570ab801.jpg",
         description: "Jogador de basquete, terceira vítima de Vecna.",
         age: 18,
         firstEp: "Season 4, Chapter 2: Vecna's Curse",
@@ -482,19 +482,8 @@ async function main() {
 
     prisma.character.create({
       data: {
-        name: "Russell Coleman",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/placeholder.jpg",
-        description: "Agente do laboratório, aparece na primeira temporada.",
-        age: 40,
-        firstEp: "Season 1, Chapter 4: The Body",
-        alive: true
-      }
-    }),
-
-    prisma.character.create({
-      data: {
         name: "Sam Owens",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/3/35/Owens_S2_Portrait.jpg",
+        image: "https://i.pinimg.com/1200x/63/35/bb/6335bb2882c83c0c1160be990c1a97b5.jpg",
         description: "Diretor do laboratório que substituiu Brenner, mais ético e protetor das crianças.",
         age: 55,
         firstEp: "Season 2, Chapter 2: Trick or Treat, Freak",
@@ -505,7 +494,7 @@ async function main() {
     prisma.character.create({
       data: {
         name: "Sara Hopper",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/placeholder.jpg",
+        image: "https://i.pinimg.com/736x/fc/33/b6/fc33b6618b042bd7421573c48f9b76ec.jpg",
         description: "Filha falecida de Jim Hopper, morreu de câncer quando criança.",
         age: 7,
         firstEp: "Season 1, Chapter 8: The Upside Down",
@@ -516,7 +505,7 @@ async function main() {
     prisma.character.create({
       data: {
         name: "Scott Clarke",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/placeholder.jpg",
+        image: "https://i.pinimg.com/736x/ac/3f/8f/ac3f8fbd4aecab4c71ee3f3395675511.jpg",
         description: "Professor de ciências dos garotos na escola média Hawkins.",
         age: 35,
         firstEp: "Season 1, Chapter 2: The Weirdo on Maple Street",
@@ -583,7 +572,7 @@ async function main() {
     prisma.character.create({
       data: {
         name: "Troy Walsh",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/placeholder.jpg",
+        image: "https://i.pinimg.com/736x/5b/0a/dc/5b0adc04657e9602909cfcecd32f34d7.jpg",
         description: "Valentão da escola que atormentava os garotos, especialmente Mike e Dustin.",
         age: 13,
         firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
@@ -591,16 +580,6 @@ async function main() {
       }
     }),
 
-    prisma.character.create({
-      data: {
-        name: "Sam Owens",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/3/35/Owens_S2_Portrait.jpg",
-        description: "Diretor do laboratório que substituiu Brenner, mais ético e protetor das crianças.",
-        age: 55,
-        firstEp: "Season 2, Chapter 2: Trick or Treat, Freak",
-        alive: true
-      }
-    }),
 
 
     prisma.character.create({
@@ -618,21 +597,10 @@ async function main() {
     prisma.character.create({
       data: {
         name: "Jason Carver",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/1/13/Jason_S4_Portrait.jpg",
+        image: "https://i.pinimg.com/736x/4e/ce/8d/4ece8dfe357c02cbde1dc9e44c2d278c.jpg",
         description: "Capitão do time de basquete, namorado de Chrissy. Caçou Eddie por vingança.",
         age: 18,
         firstEp: "Season 4, Chapter 1: The Hellfire Club",
-        alive: false
-      }
-    }),
-
-    prisma.character.create({
-      data: {
-        name: "Patrick McKinney",
-        image: "https://static.wikia.nocookie.net/strangerthings/images/9/94/Patrick_S4_Portal.jpg",
-        description: "Jogador de basquete, terceira vítima de Vecna.",
-        age: 18,
-        firstEp: "Season 4, Chapter 2: Vecna's Curse",
         alive: false
       }
     }),
@@ -656,7 +624,15 @@ async function main() {
 
     prisma.easteregg.create({
       data: {
-        image: "https://upload.wikimedia.org/wikipedia/en/c/c2/Alphabet_wall.png",
+        image: "https://i.pinimg.com/736x/2d/08/b6/2d08b6f0367758c5f75641fdb7150f18.jpg",
+        title: "A série quase foi recusada por vários estúdios.",
+        facts: "Antes de ser comprada pela Netflix, Stranger Things foi rejeitada por mais de 15 canais e produtoras. Muitos executivos achavam arriscado investir em uma série que misturava ficção científica, terror e aventura infantil, acreditando que o público não iria se interessar. Alguns chegaram a sugerir que os irmãos Duffer transformassem a história em algo mais “adulto” ou focado apenas nos cientistas, retirando o protagonismo das crianças. Se eles tivessem aceitado mudar, a série provavelmente perderia sua essência. A Netflix, por outro lado, enxergou o potencial e deu liberdade criativa total, o que permitiu que Stranger Things se tornasse o fenômeno mundial que é hoje.",
+      }
+    }),
+
+    prisma.easteregg.create({
+      data: {
+        image: "https://i.pinimg.com/736x/3e/ee/fb/3eeefbb5e78e2a50fba55d1f794a847e.jpg",
         title: "O Demogorgon foi inspirado em 'O Senhor dos Anéis' e Dungeons & Dragons.",
         facts: "O icônico monstro da primeira temporada, o Demogorgon, tem seu nome inspirado no jogo de RPG Dungeons & Dragons, mas sua aparência e comportamento também lembram criaturas sombrias de obras de fantasia, como “O Senhor dos Anéis”. Os criadores queriam uma criatura aterrorizante que atravessasse dimensões e transmitisse sensação de perigo absoluto, mas que também tivesse características que permitissem explorar o psicológico dos personagens. A combinação de elementos de RPG, filmes de terror e fantasia criou um monstro inesquecível que virou símbolo da série.",
       }
@@ -670,21 +646,61 @@ async function main() {
       }
     }),
 
-     prisma.easteregg.create({
+    prisma.easteregg.create({
       data: {
-        image: "https://upload.wikimedia.org/wikipedia/en/7/70/Alice_in_Chains.jpg",
-        title: "fazer",
-        facts: "fazer",
+        image: "https://i.pinimg.com/736x/93/76/5c/93765c2f03a42439ee8265e79151ce43.jpg",
+        title: "O relógio do avô na casa Creel",
+        secrets: "Na quarta temporada, a casa dos Creel é cercada de objetos estranhos, mas poucos perceberam o relógio antigo em destaque. Ele aparece em cenas antes de ataques de Vecna, sugerindo que há uma relação simbólica entre tempo, memória e trauma. Alguns fãs especulam que o relógio representa o “tempo parado” dos eventos traumáticos da família e conecta os ataques sobrenaturais a momentos específicos do passado. Essa sutileza mostra o cuidado dos criadores em esconder pistas visuais que reforçam a mitologia do Mundo Invertido.",
       }
     }),
 
       prisma.easteregg.create({
       data: {
-        image: "https://i.pinimg.com/736x/3e/ee/fb/3eeefbb5e78e2a50fba55d1f794a847e.jpg",
-        title: "Dungeons & Dragons",
-        secrets: "O jogo D&D aparece em várias cenas como referência direta ao jogo de mesa que os personagens jogam.",
-        facts: "O grupo principal de crianças se chama 'Party of D&D', refletindo suas aventuras na vida real e no jogo.",
+        image: "https://i.pinimg.com/736x/fa/58/bf/fa58bf86b7223094d1afe7196d7d7a6a.jpg",
+        title: "O número 11 em Hawkins",
+        secrets: "Além da personagem Eleven, o número 11 aparece de forma recorrente em objetos de Hawkins, como placas, portas, e até relógios da cidade. É um detalhe que muitos fãs consideram coincidência, mas teorias sugerem que o número serve como um “código simbólico” que conecta Eleven ao universo da cidade e à trama central. Ele reforça a ideia de que o destino da protagonista e eventos sobrenaturais estão entrelaçados desde o início, de forma sutil e quase imperceptível para quem não presta atenção aos detalhes.",
+      }
+    }),
+      prisma.easteregg.create({
+      data: {
+        image: "https://i.pinimg.com/736x/cb/c5/a5/cbc5a5917e161a2a879380eb76a99aeb.jpg",
+        title: "A ausência da mãe de Will nas visões",
+        secrets: "Will Byers é o personagem mais diretamente afetado pelo Mundo Invertido, mas curiosamente, suas visões e sensações durante episódios de possessão ou ataques de Vecna raramente incluem sua mãe, Joyce. Isso sugere que algo protege Joyce ou que Will ainda mantém um vínculo especial que não pode ser quebrado. É um detalhe que muitos fãs não notam, mas que indica que nem todos os relacionamentos familiares têm a mesma influência sobrenatural na série, reforçando a ideia de que alguns personagens têm funções narrativas mais simbólicas.",
+      }
+    }),
+      prisma.easteregg.create({
+      data: {
+        image: "https://i.pinimg.com/736x/e1/f7/7a/e1f77aa2727bae80ab879d1c6905a70c.jpg",
+        title: "O significado real das luzes de Natal",
+        secrets: "Na primeira temporada, Joyce Byers usa luzes de Natal para se comunicar com Will preso no Mundo Invertido. Porém, mesmo após o resgate de Will, essas luzes continuam aparecendo de forma simbólica em momentos-chave da série, sugerindo que elas têm mais do que um simples valor emocional. Muitos fãs acreditam que as luzes representam uma espécie de “condutor energético” entre dimensões, funcionando como uma metáfora para a comunicação entre mundos. Apesar disso, os criadores nunca explicaram completamente esse detalhe, deixando espaço para interpretações que passam despercebidas por quem assiste de forma mais superficial.",
+      }
+    }),
+      prisma.easteregg.create({
+      data: {
+        image: "https://i.pinimg.com/1200x/bc/ab/8f/bcab8f771516dca2241d9d35387d6075.jpg",
+        title: "Eleven não é a única capaz de derrotar Vecna",
+        theories: "Embora Eleven seja apresentada como a personagem central capaz de enfrentar Vecna, muitos fãs acreditam que outros personagens — especialmente Max e Will — podem desempenhar papéis decisivos na batalha final. Max, por sua proximidade com Vecna, pode adquirir habilidades similares ou sensibilidades que a tornariam essencial no confronto. Will, por já ter passado pelo Mundo Invertido diversas vezes, também poderia fornecer uma vantagem estratégica. Essa teoria reforça a ideia de que a série não depende apenas de um “herói único”, mas de uma combinação de personagens conectados emocional e sobrenaturalmente."
+      }
+    }),
+      prisma.easteregg.create({
+      data: {
+        image: "https://i.pinimg.com/1200x/f6/af/d0/f6afd0e560a023e823b28984d7830dd4.jpg",
+        title: "O Mundo Invertido é uma versão congelada de Hawkins no tempo",
+        theories: "Alguns fãs teorizam que o Mundo Invertido não é apenas um reflexo sombrio da realidade, mas sim Hawkins preso em um momento específico no tempo — possivelmente no dia do desaparecimento de Will. Isso explicaria por que certos eventos parecem “ecoar” no mundo real e no mundo paralelo. Essa teoria sugere que o Mundo Invertido é uma dimensão que funciona como uma cápsula temporal, onde traumas e memórias permanecem vivos, e que a presença de Eleven e outros personagens serve para quebrar ou modificar esse congelamento."
+      }
+    }),
+      prisma.easteregg.create({
+      data: {
+        image: "https://i.pinimg.com/1200x/b5/54/4f/b5544f54957bd1b4f7031c40739fa35c.jpg",
+        title: "Will será o novo vilão",
         theories: "Alguns fãs acreditam que o Upside Down é uma versão 'real' do mundo de D&D, misturando fantasia com terror."
+      }
+    }),
+      prisma.easteregg.create({
+      data: {
+        image: "https://i.pinimg.com/1200x/b6/fc/ac/b6fcac38e6b1a6d3733a2632e3e0c857.jpg",
+        title: "Hopper pode ter viajado entre dimensões",
+        theories: "No final da terceira temporada, Hopper aparentemente morre ao se sacrificar para fechar o portal. No entanto, logo depois descobrimos que ele estava vivo em uma prisão russa. Alguns fãs acreditam que Hopper não apenas foi capturado, mas que sua sobrevivência foi resultado de uma passagem pelo Mundo Invertido. Essa teoria se baseia em indícios de que ele teria atravessado parcialmente o portal antes da explosão e que isso pode ter deixado marcas nele. Caso seja verdade, Hopper pode carregar dentro de si algum tipo de conexão com o Mundo Invertido que ainda não foi revelada, o que explicaria sua importância crescente no enredo."
       }
     }),
   ]);
