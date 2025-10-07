@@ -772,7 +772,25 @@ prisma.character.create({
       data: {
         image: "https://i.pinimg.com/1200x/b5/54/4f/b5544f54957bd1b4f7031c40739fa35c.jpg",
         title: "Will será o novo vilão",
-        theories: "Alguns fãs acreditam que o Upside Down é uma versão 'real' do mundo de D&D, misturando fantasia com terror."
+        theories: `A teoria sugere que, após os eventos da quarta temporada, Will Byers poderia se tornar o novo antagonista de Hawkins. Vários elementos da série sustentam essa possibilidade:
+
+Conexão profunda com o Mundo Invertido
+Desde a primeira temporada, Will tem uma ligação psíquica única com o Mundo Invertido. Ele foi possuído parcialmente pelo Devorador de Mentes e frequentemente sente a presença de entidades sombrias antes de qualquer outra pessoa. Essa conexão poderia evoluir, fazendo com que ele se torne influenciado por forças malignas residuais no Mundo Invertido.
+
+Traumas e isolamento
+Will passou por traumas profundos: desaparecimento, quase morte, e a constante sensação de não se encaixar entre os amigos, que começaram a se envolver em romances e crescer de forma diferente dele. Essa solidão e frustração emocional poderiam gerar ressentimento, criando um terreno psicológico vulnerável a influências maléficas.
+
+Mudança de personalidade sutil
+Ao longo das temporadas, Will demonstra sensibilidade extrema e empatia. Porém, na quarta temporada, ele começa a mostrar sinais de introspecção e isolamento, guardando sentimentos reprimidos. Alguns fãs interpretam que essa repressão emocional poderia transformá-lo, levando a um comportamento mais sombrio.
+
+Paralelos com Vecna
+Assim como Henry Creel/Vecna começou como uma criança com problemas psicológicos e uma conexão com o sobrenatural, Will tem potencial similar. A teoria sugere que, caso alguma energia residual do Mundo Invertido o influencie, ele poderia desenvolver habilidades para se tornar uma nova ameaça, possivelmente uma figura anti-heroica ou vilanesca.
+
+Foreshadowing na série
+Alguns episódios mostram Will reagindo de forma intensa a eventos sobrenaturais e até prevenindo amigos de perigos que ele sente antes. Isso pode indicar que ele terá um papel central em futuras temporadas — e que sua conexão emocional com os amigos poderia ser explorada de forma a transformá-lo em antagonista.
+
+Resumo da teoria:
+Will Byers, por causa de sua ligação histórica com o Mundo Invertido, os traumas acumulados e sua sensibilidade psíquica, poderia ser moldado como o próximo grande vilão de Hawkins. Diferente de Vecna, ele teria um lado humano mais forte, criando um conflito interno entre o bem e o mal, o que adicionaria profundidade ao enredo.`,
       }
     }),
     prisma.easteregg.create({
