@@ -73,7 +73,7 @@ Temporada 4: É uma das personagens mais complexas, vivendo luto e isolamento ap
       data: {
         name: "Will Byers",
         image: "https://i.pinimg.com/1200x/b0/d5/b7/b0d5b7beae5bb9616b19a2fa1f5e57a5.jpg",
-        description:  `O desaparecimento de Will na primeira temporada é o estopim da trama de Stranger Things. Preso no Mundo Invertido, ele passa por experiências traumáticas que o deixam com uma conexão permanente com aquela dimensão sombria. Sensível e criativo, Will é apaixonado por desenhos e jogos de RPG, mas sua inocência é marcada pela dor de ter sido alvo das forças sobrenaturais. Ao longo da série, ele luta para se readaptar à vida normal, ao mesmo tempo em que serve como uma espécie de “ponte viva” entre Hawkins e o Mundo Invertido.
+        description: `O desaparecimento de Will na primeira temporada é o estopim da trama de Stranger Things. Preso no Mundo Invertido, ele passa por experiências traumáticas que o deixam com uma conexão permanente com aquela dimensão sombria. Sensível e criativo, Will é apaixonado por desenhos e jogos de RPG, mas sua inocência é marcada pela dor de ter sido alvo das forças sobrenaturais. Ao longo da série, ele luta para se readaptar à vida normal, ao mesmo tempo em que serve como uma espécie de “ponte viva” entre Hawkins e o Mundo Invertido.
 
 Temporada 1: O desaparecimento de Will dá início a toda a história. Preso no Mundo Invertido, enfrenta o Demogorgon e vive aterrorizado. Sua ausência e busca tornam-se o coração da temporada.
 
@@ -125,7 +125,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         alive: true
       }
     }),
-    
+
 
     prisma.character.create({
       data: {
@@ -188,7 +188,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://pyxis.nymag.com/v1/imgs/cd8/1a8/e67063dba9db70085a35376ef886565774-27-stranger-things-barb.rsocial.w1200.jpg",
         description: "Melhor amiga de Nancy Wheeler, primeira vítima conhecida do Demogorgon.",
         age: 17,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        firstEp: "S01EP01",
         alive: false
       }
     }),
@@ -199,7 +199,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/1200x/e7/19/6c/e7196c201107246241c0ed138ea1e98c.jpg",
         description: "Dono do restaurante Benny's Burgers, ajudou Onze no início da série.",
         age: 50,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        firstEp: "S01EP01",
         alive: false
       }
     }),
@@ -232,7 +232,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://decider.com/wp-content/uploads/2022/05/grace-van-dien-stranger-things.jpg?quality=75&strip=all&w=1200",
         description: "Líder de torcida e primeira vítima de Vecna na 4ª temporada.",
         age: 18,
-        firstEp: "Season 4, Chapter 1: The Hellfire Club",
+        firstEp: "S04EP01",
         alive: false
       }
     }),
@@ -243,7 +243,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/1200x/4d/75/3b/4d753bdf3520fc124bf183c0e5d60a36.jpg",
         description: "Mãe carinhosa e atenciosa de Dustin Henderson.",
         age: 42,
-        firstEp: "Season 1, Chapter 4: The Body",
+        firstEp: "S01EP04",
         alive: true
       }
     }),
@@ -254,7 +254,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/07/f3/91/07f391d0ce24946e6f37f806938ceb68.jpg",
         description: "Agente do departamento de energia que perseguiu os garotos na primeira temporada.",
         age: 40,
-        firstEp: "Season 1, Chapter 4: The Body",
+        firstEp: "S01EP01",
         alive: false
       }
     }),
@@ -263,9 +263,11 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
       data: {
         name: "Demogorgon",
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm3QV6VTTe3TuB7_QiqN-mbXDcGyEifQO2_A&s",
-        description: "Criatura predadora do Mundo Invertido, primeiro monstro enfrentado pelo grupo.",
+        description: `O Demogorgon é a primeira criatura do Mundo Invertido a cruzar o portal para Hawkins, tornando-se o símbolo do terror que inicia toda a trama de Stranger Things. Seu corpo humanoide e sua cabeça em forma de flor com pétalas cheias de dentes o tornam uma das criaturas mais assustadoras da série. Extremamente ágil, forte e guiado por instintos predatórios, ele caça e devora suas presas sem piedade. 
+Durante a primeira temporada, o Demogorgon sequestra Will Byers e Barbara Holland, levando-os ao Mundo Invertido. Também é o responsável pelo desaparecimento de várias vítimas em Hawkins. Eleven o enfrenta no final da primeira temporada, aparentemente destruindo-o ao usar toda sua energia telecinética. 
+Apesar disso, versões semelhantes — conhecidas como Demodogs e Demobats — voltam em temporadas seguintes, mostrando que o Demogorgon foi apenas o primeiro passo no horror que conecta Hawkins ao Mundo Invertido.`,
         age: 1000,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        firstEp: "S01EP01",
         alive: false
       }
     }),
@@ -274,10 +276,12 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
       data: {
         name: "010",
         image: "https://i.pinimg.com/1200x/d2/1d/71/d21d7177e2d9566f41f933e820c3645f.jpg",
-        description: "Amigo de Kali Prasad (Oito), parte do grupo de Chicago.",
+        description: `010 é uma das crianças experimentais do Laboratório de Hawkins, semelhante a Onze, mas com poderes distintos e um temperamento mais reservado. Treinado sob os métodos brutais do Dr. Brenner, 010 vivia entre o medo e a obediência. Apesar de sua pouca aparição, é mostrado como um dos mais próximos do Dr. Brenner dentro do laboratório. 
+Sua relação com os outros números era de tensão e rivalidade, especialmente com 002, e ele presenciou de perto os abusos cometidos pelo programa experimental. Acredita-se que tenha sido morto no massacre do laboratório causado por Henry Creel (001/Vecna), embora sua morte nunca tenha sido confirmada explicitamente. 
+Em linhas alternativas e teorias de fãs, ele é mencionado como possível sobrevivente, o que alimenta especulações para a quinta temporada.`,
         age: 19,
-        firstEp: "Season 2, Chapter 7: The Lost Sister",
-        alive: true
+        firstEp: "S04EP01",
+        alive: false
       }
     }),
 
@@ -285,9 +289,11 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
       data: {
         name: "Dimitri Antolov",
         image: "https://i.pinimg.com/736x/1a/c4/ca/1ac4ca046d90a407e919e6f7755790f2.jpg",
-        description: "Guarda da prisão russa que ajudou Hopper a escapar, apelidado de Enzo.",
+        description: `Dimitri Antolov, conhecido pelo apelido "Enzo", é o guarda da prisão russa que ajuda Jim Hopper a escapar na quarta temporada. Inicialmente movido por interesses financeiros, Dimitri acaba mostrando empatia e coragem, tornando-se um aliado leal. Seu apelido vem do restaurante onde ele e Hopper trocavam informações secretas. 
+Ao longo da temporada, Dimitri demonstra bravura ao enfrentar as forças soviéticas e as criaturas do Mundo Invertido, provando que mesmo pessoas aparentemente comuns podem se tornar heróis. 
+Na quinta temporada, ele permanece vivo e exilado, sendo lembrado como o improvável amigo russo que arriscou tudo por justiça.`,
         age: 40,
-        firstEp: "Season 4, Chapter 2: Vecna's Curse",
+        firstEp: "S04EP02",
         alive: true
       }
     }),
@@ -296,31 +302,26 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
       data: {
         name: "002",
         image: "https://i.pinimg.com/736x/63/06/80/630680223ea01f1599adf0f42d2223c8.jpg",
-        description: "Criança com poderes psíquicos do laboratório Hawkins, rival de Onze.",
+        description: `002 foi uma das crianças submetidas aos experimentos telecinéticos no Laboratório de Hawkins. Conhecido por sua força e arrogância, ele era o principal rival de Onze nas competições de treino organizadas por Brenner. 
+002 acreditava ser o mais poderoso, o que o levou a menosprezar os outros, criando rivalidades e tensão entre as crianças. Durante o massacre causado por Henry Creel (001), 002 é brutalmente morto junto com os outros participantes do programa, marcando o início da rebelião que definiria o destino do laboratório. 
+Sua morte é o símbolo do colapso do projeto que Brenner tentou esconder por tantos anos.`,
         age: 14,
-        firstEp: "Season 4, Chapter 5: The Nina Project",
+        firstEp: "S4EP01",
         alive: false
       }
     }),
-    
-    prisma.character.create({
-      data: {
-        name: "001",
-        image: "https://i.pinimg.com/1200x/d3/d0/11/d3d01175cf735789369fa7d76044820d.jpg",
-        description: "Arrumar",
-        age: 14,
-        firstEp: "Arrumar",
-        alive: false
-      }
-    }),
+
 
     prisma.character.create({
       data: {
         name: "Eddie Munson",
         image: "https://miro.medium.com/1*lC413Lnv3zATazzPNB3NOg.jpeg",
-        description: "Líder do Hellfire Club, fã de metal e D&D. Morreu heroicamente no Mundo Invertido.",
+        description: `Eddie Munson é o líder carismático do Hellfire Club, o grupo de RPG da Hawkins High School. Fã de heavy metal e defensor dos excluídos, Eddie é um espírito livre que enfrenta o preconceito da cidade por seu estilo e gostos alternativos. 
+Na quarta temporada, é injustamente acusado de assassinato após a morte de Chrissy Cunningham, forçando-o a se esconder enquanto os amigos buscam provar sua inocência. 
+Com o desenrolar da trama, Eddie mostra sua verdadeira coragem ao enfrentar o exército de demobats no Mundo Invertido para proteger Dustin e os outros. Seu sacrifício heroico é um dos momentos mais emocionantes da série. 
+Apesar de sua morte, Eddie permanece como símbolo da lealdade e do amor pela amizade, com um legado que inspira todos os personagens na quinta temporada.`,
         age: 20,
-        firstEp: "Season 4, Chapter 1: The Hellfire Club",
+        firstEp: "S04EP01",
         alive: false
       }
     }),
@@ -364,7 +365,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/43/55/3e/43553ec2a6d3cdc1f822af1718dc8385.jpg",
         description: "Salva-vidas da piscina comunitária, possuída pelo Mind Flayer.",
         age: 17,
-        firstEp: "Season 3, Chapter 2: The Mall Rats",
+        firstEp: "S03EP02",
         alive: false
       }
     }),
@@ -375,7 +376,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/1200x/34/cd/94/34cd941874d4520258bb3a38931e2e69.jpg",
         description: "Irmã mais nova de Mike e Nancy, criança pequena e curiosa.",
         age: 5,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        firstEp: "S01EP01",
         alive: true
       }
     }),
@@ -399,7 +400,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/de/40/8f/de408f94c9a205a077d985a1d1b48c54.jpg",
         description: "Oito, irmã de laboratório de Onze com poderes de ilusão.",
         age: 20,
-        firstEp: "Season 2, Chapter 7: The Lost Sister",
+        firstEp: "S02EP08",
         alive: true
       }
     }),
@@ -419,9 +420,11 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
       data: {
         name: "Keith",
         image: "https://i.pinimg.com/1200x/18/b8/9b/18b89b9318c8eaac629c769a4933ae60.jpg",
-        description: "fazer",
+        description: `Keith é o atendente preguiçoso e sarcástico do fliperama de Hawkins, visto pela primeira vez na segunda temporada. Ele representa o estereótipo do geek dos anos 80 — fanático por videogames e cheio de comentários ácidos. 
+Apesar de parecer apenas um personagem cômico secundário, Keith contribui para o clima nostálgico da série, sendo parte da rotina dos garotos entre uma aventura e outra. É um personagem que mostra o contraste entre o mundo comum de Hawkins e os eventos sobrenaturais que a cercam. 
+Na quinta temporada, é mencionado brevemente como alguém que testemunhou “coisas estranhas” no fliperama após os acontecimentos sobrenaturais.`,
         age: 30,
-        firstEp: "S0EP0",
+        firstEp: "S02EP01",
         alive: true
       }
     }),
@@ -476,34 +479,24 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/0a/e7/12/0ae712f71a632589bf775a617dcb3c6c.jpg",
         description: "Pai abusivo de Billy Hargrove e padrasto de Max.",
         age: 45,
-        firstEp: "Season 2, Chapter 4: Chapter Four: Will the Wise",
+        firstEp: "S02EP04",
         alive: true
       }
     }),
 
     prisma.character.create({
       data: {
-        name: "O Monstro",
+        name: "O Monstro (Devorador de Mentes)",
         image: "https://i.pinimg.com/736x/00/fb/c7/00fbc71230d11c172e6a9d3ec470a767.jpg",
-        description: "Referência geral às criaturas do Mundo Invertido.",
+        description: `O Devorador de Mentes é uma entidade colossal e inteligente que governa o Mundo Invertido. Diferente do Demogorgon, ele é uma consciência coletiva que manipula criaturas e domina mentes humanas. 
+Sua forma lembra uma sombra gigantesca que se estende pelos céus do Mundo Invertido, representando o verdadeiro mal por trás de todos os eventos de Hawkins. 
+Na segunda e terceira temporadas, ele invade a mente de Will Byers e depois controla Billy Hargrove, espalhando terror pela cidade. Mesmo após ter sido enfraquecido, continua existindo no Mundo Invertido, à espera de Vecna. 
+Sua origem ainda é misteriosa, mas acredita-se que seja uma manifestação do caos puro, ligada às energias psíquicas do universo.`,
         age: 1000,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        firstEp: "S02EP01",
         alive: false
       }
     }),
-
-    prisma.character.create({
-      data: {
-        name: "Vecna",
-        image: "https://i.pinimg.com/1200x/5c/1c/29/5c1c2953c229f67056a84255d9d0422e.jpg",
-        description: "fazer",
-        age: 1000,
-        firstEp: "Season 4, Chapter 1: terminar",
-        alive: true
-      }
-    }),
-
-
 
     prisma.character.create({
       data: {
@@ -511,7 +504,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/70/a9/d4/70a9d4b04d90233cb35cdd58570ab801.jpg",
         description: "Jogador de basquete, terceira vítima de Vecna.",
         age: 18,
-        firstEp: "Season 4, Chapter 2: Vecna's Curse",
+        firstEp: "S04EP01",
         alive: false
       }
     }),
@@ -544,7 +537,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/fc/33/b6/fc33b6618b042bd7421573c48f9b76ec.jpg",
         description: "Filha falecida de Jim Hopper, morreu de câncer quando criança.",
         age: 7,
-        firstEp: "Season 1, Chapter 8: The Upside Down",
+        firstEp: "S01EP08",
         alive: false
       }
     }),
@@ -555,7 +548,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/ac/3f/8f/ac3f8fbd4aecab4c71ee3f3395675511.jpg",
         description: "Professor de ciências dos garotos na escola média Hawkins.",
         age: 35,
-        firstEp: "Season 1, Chapter 2: The Weirdo on Maple Street",
+        firstEp: "S01EP01",
         alive: true
       }
     }),
@@ -577,7 +570,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/dc/84/bd/dc84bd825ff831b35166c79c9ab318be.jpg",
         description: "Mãe de Max e esposa de Neil Hargrove.",
         age: 40,
-        firstEp: "Season 2, Chapter 4: Chapter Four: Will the Wise",
+        firstEp: "S02EP04",
         alive: true
       }
     }),
@@ -588,7 +581,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/4b/4b/ae/4b4bae93204753653724320d4b806694.jpg",
         description: "Pai de Mike e Nancy, homem desatento que geralmente está assistindo TV ou dormindo.",
         age: 45,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        firstEp: "S01EP01",
         alive: true
       }
     }),
@@ -599,7 +592,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/1200x/7b/1a/3d/7b1a3d671698b4756574a1db2abbaaca.jpg",
         description: "Mãe biológica de Onze, sofreu danos cerebrais devido aos experimentos.",
         age: 42,
-        firstEp: "Season 1, Chapter 6: The Monster",
+        firstEp: "S01EP08",
         alive: true
       }
     }),
@@ -610,7 +603,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/a4/6b/f4/a46bf4803171b46ef290c99bc09d289c.jpg",
         description: "Editor do jornal Hawkins Post, pai de Heather Holloway.",
         age: 45,
-        firstEp: "Season 3, Chapter 2: The Mall Rats",
+        firstEp: "S03EP02",
         alive: false
       }
     }),
@@ -622,7 +615,7 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/5b/0a/dc/5b0adc04657e9602909cfcecd32f34d7.jpg",
         description: "Valentão da escola que atormentava os garotos, especialmente Mike e Dustin.",
         age: 13,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        firstEp: "S01EP01",
         alive: true
       }
     }),
@@ -633,9 +626,11 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
       data: {
         name: "Yuri Ismalov",
         image: "https://i.pinimg.com/736x/e2/a1/a9/e2a1a9aad3397b939f4d0775c177b9f4.jpg",
-        description: "Contrabandista russo que ajudou na operação de resgate de Hopper.",
+        description: `Yuri Ismalov é um contrabandista russo que se envolve nos eventos da quarta temporada ao ser contratado para ajudar na fuga de Hopper. De início, é um trapaceiro que pensa apenas em lucro, traindo Murray e Joyce em troca de dinheiro. 
+Entretanto, ao longo da jornada, Yuri se vê forçado a cooperar e acaba ajudando, mesmo que relutantemente, na missão de resgate. Com sua personalidade extravagante e humor duvidoso, ele adiciona leveza e caos à narrativa. 
+Na quinta temporada, Yuri é mencionado como desaparecido após a queda da prisão russa, deixando seu destino em aberto.`,
         age: 45,
-        firstEp: "Season 4, Chapter 4: Dear Billy",
+        firstEp: "S04EP04",
         alive: true
       }
     }),
@@ -647,10 +642,47 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
         image: "https://i.pinimg.com/736x/4e/ce/8d/4ece8dfe357c02cbde1dc9e44c2d278c.jpg",
         description: "Capitão do time de basquete, namorado de Chrissy. Caçou Eddie por vingança.",
         age: 18,
-        firstEp: "Season 4, Chapter 1: The Hellfire Club",
+        firstEp: "S04EP01",
         alive: false
       }
     }),
+
+    // 1. Henry Creel (criança)
+prisma.character.create({
+  data: {
+    name: "Henry Creel",
+    image: "https://i.pinimg.com/1200x/7f/aa/a3/7faaa39ec38cb7f1ea49a171324c79fa.jpg",
+    description: `Henry Creel é uma criança extraordinariamente inteligente e com habilidades psíquicas latentes. Aos 12 anos, em 1959, ele já demonstrava sinais de frieza e crueldade, culminando no assassinato de sua mãe e irmã. Esse ato o leva a ser levado para o Laboratório Nacional de Hawkins, onde começa a ser estudado e manipulado. Na infância, Henry mostra um comportamento perturbador e uma visão distorcida da realidade, acreditando que pode impor sua própria ordem. É nesta fase que sua personalidade começa a se moldar para se tornar o ser mais perigoso do laboratório, estabelecendo as bases para se tornar 001 e, posteriormente, Vecna. Esta etapa de sua vida é marcada por conflitos internos, a luta entre a humanidade remanescente e seus impulsos sombrios, e o surgimento de suas habilidades extraordinárias.`,
+    age: 12,
+    firstEp: "S4EP1",
+    alive: false
+  }
+}),
+
+// 2. 001 (Henry no laboratório)
+prisma.character.create({
+  data: {
+    name: "001",
+    image: "https://i.pinimg.com/1200x/97/46/5e/97465ef416aaa6b66d3800eb242be7e7.jpg",
+    description: `001 é a designação que Henry Creel recebe ao ser estudado no Laboratório Nacional de Hawkins. Aos 32 anos, em 1979, ele já se tornou extremamente poderoso e manipulador, sendo o primeiro e mais importante experimento do Dr. Brenner. Durante essa fase, 001 desenvolve habilidades psíquicas avançadas, incluindo telecinese, controle mental e manipulação emocional, usando essas capacidades para influenciar e testar Eleven. Ele acredita que suas ações são justificadas e que a humanidade deve se submeter à sua visão. O confronto com Eleven e os outros experimentos do laboratório culmina em sua derrota e subsequente exílio para o Mundo Invertido, marcando sua transição de humano manipulador para a entidade monstruosa conhecida como Vecna. Esta fase mostra 001 como um antagonista complexo, inteligente, cruel e estrategicamente brilhante.`,
+    age: 32,
+    firstEp: "S4EP1",
+    alive: false
+  }
+}),
+
+// 3. Vecna (Henry no Mundo Invertido)
+prisma.character.create({
+  data: {
+    name: "Vecna",
+    image: "https://i.pinimg.com/1200x/2a/bc/17/2abc178acd18dfc946e665bd616c2597.jpg",
+    description: `Vecna é a forma monstruosa de Henry Creel após ser exilado para o Mundo Invertido. Aos 39 anos, em 1986, ele se torna a principal ameaça de Hawkins, usando suas habilidades psíquicas e sua inteligência para aterrorizar e manipular aqueles ao seu redor. Como Vecna, ele caça jovens marcados por traumas e sentimentos de culpa, aumentando seu poder a cada vítima. Ao longo da quarta temporada, descobrimos a complexidade de sua personalidade: a fusão de um homem brilhante e cruel com uma entidade sombria, mostrando como suas ações são motivadas tanto pelo desejo de vingança quanto pela necessidade de exercer controle absoluto. Sua ligação com Eleven é central, pois ela representa a força capaz de detê-lo, tornando seu confronto final um embate não apenas de poderes, mas de história, escolhas e redenção.`,
+    age: 39,
+    firstEp: "S4EP1",
+    alive: true
+  }
+}),
+
 
   ]
 
@@ -701,49 +733,49 @@ Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Edd
       }
     }),
 
-      prisma.easteregg.create({
+    prisma.easteregg.create({
       data: {
         image: "https://i.pinimg.com/736x/fa/58/bf/fa58bf86b7223094d1afe7196d7d7a6a.jpg",
         title: "O número 11 em Hawkins",
         secrets: "Além da personagem Eleven, o número 11 aparece de forma recorrente em objetos de Hawkins, como placas, portas, e até relógios da cidade. É um detalhe que muitos fãs consideram coincidência, mas teorias sugerem que o número serve como um “código simbólico” que conecta Eleven ao universo da cidade e à trama central. Ele reforça a ideia de que o destino da protagonista e eventos sobrenaturais estão entrelaçados desde o início, de forma sutil e quase imperceptível para quem não presta atenção aos detalhes.",
       }
     }),
-      prisma.easteregg.create({
+    prisma.easteregg.create({
       data: {
         image: "https://i.pinimg.com/736x/cb/c5/a5/cbc5a5917e161a2a879380eb76a99aeb.jpg",
         title: "A ausência da mãe de Will nas visões",
         secrets: "Will Byers é o personagem mais diretamente afetado pelo Mundo Invertido, mas curiosamente, suas visões e sensações durante episódios de possessão ou ataques de Vecna raramente incluem sua mãe, Joyce. Isso sugere que algo protege Joyce ou que Will ainda mantém um vínculo especial que não pode ser quebrado. É um detalhe que muitos fãs não notam, mas que indica que nem todos os relacionamentos familiares têm a mesma influência sobrenatural na série, reforçando a ideia de que alguns personagens têm funções narrativas mais simbólicas.",
       }
     }),
-      prisma.easteregg.create({
+    prisma.easteregg.create({
       data: {
         image: "https://i.pinimg.com/736x/e1/f7/7a/e1f77aa2727bae80ab879d1c6905a70c.jpg",
         title: "O significado real das luzes de Natal",
         secrets: "Na primeira temporada, Joyce Byers usa luzes de Natal para se comunicar com Will preso no Mundo Invertido. Porém, mesmo após o resgate de Will, essas luzes continuam aparecendo de forma simbólica em momentos-chave da série, sugerindo que elas têm mais do que um simples valor emocional. Muitos fãs acreditam que as luzes representam uma espécie de “condutor energético” entre dimensões, funcionando como uma metáfora para a comunicação entre mundos. Apesar disso, os criadores nunca explicaram completamente esse detalhe, deixando espaço para interpretações que passam despercebidas por quem assiste de forma mais superficial.",
       }
     }),
-      prisma.easteregg.create({
+    prisma.easteregg.create({
       data: {
         image: "https://i.pinimg.com/1200x/bc/ab/8f/bcab8f771516dca2241d9d35387d6075.jpg",
         title: "Eleven não é a única capaz de derrotar Vecna",
         theories: "Embora Eleven seja apresentada como a personagem central capaz de enfrentar Vecna, muitos fãs acreditam que outros personagens — especialmente Max e Will — podem desempenhar papéis decisivos na batalha final. Max, por sua proximidade com Vecna, pode adquirir habilidades similares ou sensibilidades que a tornariam essencial no confronto. Will, por já ter passado pelo Mundo Invertido diversas vezes, também poderia fornecer uma vantagem estratégica. Essa teoria reforça a ideia de que a série não depende apenas de um “herói único”, mas de uma combinação de personagens conectados emocional e sobrenaturalmente."
       }
     }),
-      prisma.easteregg.create({
+    prisma.easteregg.create({
       data: {
         image: "https://i.pinimg.com/1200x/f6/af/d0/f6afd0e560a023e823b28984d7830dd4.jpg",
         title: "O Mundo Invertido é uma versão congelada de Hawkins no tempo",
         theories: "Alguns fãs teorizam que o Mundo Invertido não é apenas um reflexo sombrio da realidade, mas sim Hawkins preso em um momento específico no tempo — possivelmente no dia do desaparecimento de Will. Isso explicaria por que certos eventos parecem “ecoar” no mundo real e no mundo paralelo. Essa teoria sugere que o Mundo Invertido é uma dimensão que funciona como uma cápsula temporal, onde traumas e memórias permanecem vivos, e que a presença de Eleven e outros personagens serve para quebrar ou modificar esse congelamento."
       }
     }),
-      prisma.easteregg.create({
+    prisma.easteregg.create({
       data: {
         image: "https://i.pinimg.com/1200x/b5/54/4f/b5544f54957bd1b4f7031c40739fa35c.jpg",
         title: "Will será o novo vilão",
         theories: "Alguns fãs acreditam que o Upside Down é uma versão 'real' do mundo de D&D, misturando fantasia com terror."
       }
     }),
-      prisma.easteregg.create({
+    prisma.easteregg.create({
       data: {
         image: "https://i.pinimg.com/1200x/b6/fc/ac/b6fcac38e6b1a6d3733a2632e3e0c857.jpg",
         title: "Hopper pode ter viajado entre dimensões",

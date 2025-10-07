@@ -3,6 +3,8 @@
 API inspirada na série **Stranger Things**, construída com **Node.js, Express e Prisma**.  
 Permite gerenciar **personagens** e **easter eggs**, oferecendo endpoints para listar, visualizar, criar, atualizar e deletar registros.
 
+Observação: embora todas as operações (CREATE, UPDATE, DELETE) estejam implementadas, a API será consumida somente pelas rotas de leitura (GET) nesta etapa.
+
 ---
 
 ## 🚀 Tecnologias Utilizadas
