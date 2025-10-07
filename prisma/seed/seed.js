@@ -18,7 +18,15 @@ async function main() {
       data: {
         name: "Onze (Jane Ives / Jane Hopper)",
         image: "https://i.pinimg.com/736x/e8/b4/7c/e8b47caee1c0f6eda6e22b27933f6ee2.jpg",
-        description: "Onze, também conhecida como Jane, é a personagem central de Stranger Things. Criada em laboratório e usada como cobaia em experimentos de manipulação mental e telecinese, ela cresce isolada do mundo real. Seu primeiro contato com a amizade e o afeto acontece com Mike, Dustin e Lucas, quando foge do Laboratório de Hawkins. Dotada de poderes psíquicos extraordinários, ela se torna a principal arma contra as ameaças do Mundo Invertido. Ao longo da série, evolui de uma garota frágil e traumatizada para uma jovem determinada, que luta pela própria identidade, pelos amigos e pelo direito de viver uma vida comum.",
+        description: `Onze, também conhecida como Jane, é a personagem central de Stranger Things. Criada em laboratório e usada como cobaia em experimentos de manipulação mental e telecinese, ela cresce isolada do mundo real. Seu primeiro contato com a amizade e o afeto acontece com Mike, Dustin e Lucas, quando foge do Laboratório de Hawkins. Dotada de poderes psíquicos extraordinários, ela se torna a principal arma contra as ameaças do Mundo Invertido. Ao longo da série, evolui de uma garota frágil e traumatizada para uma jovem determinada, que luta pela própria identidade, pelos amigos e pelo direito de viver uma vida comum.
+
+Temporada 1: Introduzida como uma garota misteriosa que escapa do laboratório de Hawkins. Com seus poderes telecinéticos e origem secreta, é encontrada por Mike, Dustin e Lucas. Ajuda o grupo a procurar Will, ao mesmo tempo em que foge de agentes do governo. No final, enfrenta o Demogorgon no colégio e desaparece, deixando todos acreditando que havia morrido.
+
+Temporada 2: Descobrimos que ela sobreviveu e foi acolhida por Hopper, que a esconde em sua cabana. Vive o dilema de querer liberdade, mas Hopper a protege excessivamente. Aprende mais sobre seu passado, conhece sua “irmã” Kali (008), mas decide voltar para Hawkins para proteger seus amigos. Fecha o portão para o Mundo Invertido no final da temporada.
+
+Temporada 3: Vive uma fase mais adolescente, com namoro com Mike, descobertas sobre amizade e identidade. Se envolve na batalha contra o Devorador de Mentes, sofrendo fisicamente ao perder temporariamente seus poderes. O trauma físico e emocional a deixa fragilizada, especialmente após Hopper desaparecer.
+
+Temporada 4: Agora vivendo na Califórnia com a família Byers, tenta se adaptar a uma vida normal sem poderes, sofrendo bullying na escola. Quando Vecna ameaça Hawkins, busca recuperar suas habilidades com o Dr. Owens e o Dr. Brenner. Revive traumas de seu passado, descobre sua conexão com Henry/001/Vecna, e no final retorna para Hawkins para lutar ao lado de seus amigos.`,
         age: 16,
         firstEp: "S01E01",
         alive: true
@@ -29,7 +37,15 @@ async function main() {
       data: {
         name: "Mike Wheeler",
         image: "https://i.pinimg.com/736x/9b/b6/ff/9bb6ff36f329e06baf9bb922d75b531b.jpg",
-        description: "Mike é um dos protagonistas do grupo de amigos de Hawkins e o primeiro a acolher Onze quando ela aparece em sua vida. Ele é leal, corajoso e muitas vezes funciona como a “cola” que mantém a amizade entre o grupo unida. Apesar de ser impulsivo em alguns momentos, Mike demonstra maturidade ao se preocupar constantemente com seus amigos, especialmente Will e Eleven. O romance entre ele e Onze é um dos arcos emocionais mais marcantes da série, representando tanto o despertar da adolescência quanto o poder da confiança e do amor em meio ao caos.",
+        description: `Mike é um dos protagonistas do grupo de amigos de Hawkins e o primeiro a acolher Onze quando ela aparece em sua vida. Ele é leal, corajoso e muitas vezes funciona como a “cola” que mantém a amizade entre o grupo unida. Apesar de ser impulsivo em alguns momentos, Mike demonstra maturidade ao se preocupar constantemente com seus amigos, especialmente Will e Eleven. O romance entre ele e Onze é um dos arcos emocionais mais marcantes da série, representando tanto o despertar da adolescência quanto o poder da confiança e do amor em meio ao caos.
+
+Temporada 1: É o líder natural do grupo de amigos. Toma a iniciativa de ajudar Eleven e logo cria um forte vínculo emocional com ela. É motivado pela lealdade a Will e pela coragem, mesmo diante do perigo.
+
+Temporada 2: Fica obcecado pela ausência de Eleven, sofrendo pela falta dela. Quando finalmente a reencontra, demonstra seu amor e fidelidade. Também apoia Will em seus problemas com as visões do Mundo Invertido.
+
+Temporada 3: Vive seu namoro com Eleven, entrando em conflito com Hopper por causa disso. É um dos primeiros a perceber que o comportamento estranho de Billy e a ameaça do Devorador de Mentes são sinais de perigo. Mostra grande maturidade emocional ao apoiar Eleven quando ela perde seus poderes.
+
+Temporada 4: Está em crise no relacionamento com Eleven, por não conseguir expressar seus sentimentos de forma clara. Na Califórnia, se envolve na trama de resgatar Eleven do governo. Reforça sua importância emocional para ela durante a luta contra Vecna.`,
         age: 16,
         firstEp: "S01E01",
         alive: true
@@ -40,9 +56,15 @@ async function main() {
       data: {
         name: "Max Mayfield",
         image: "https://i.pinimg.com/1200x/40/af/e7/40afe7298ae5d2fcbfc0bdf16983eed8.jpg",
-        description: "Max é introduzida na segunda temporada como a “nova garota” da cidade. Inicialmente enfrentando resistência do grupo, ela logo conquista seu espaço com sua personalidade forte e espírito independente. Max é habilidosa em jogos de arcade e mostra-se destemida diante de situações sobrenaturais, mesmo que carregue consigo um histórico familiar difícil, marcado pelo relacionamento abusivo com seu meio-irmão, Billy. Na quarta temporada, ela se torna uma das personagens centrais na luta contra Vecna, enfrentando seus próprios traumas de forma corajosa.",
+        description: `Max é a nova garota de Hawkins que rapidamente conquista espaço no grupo devido à sua personalidade independente e forte. Ela demonstra coragem e inteligência, mesmo enfrentando traumas familiares. Sua amizade com Eleven se torna fundamental, mostrando a força do apoio entre mulheres jovens. O romance com Lucas adiciona um lado mais sensível e humano à sua jornada, destacando sua vulnerabilidade e força em igual medida.
+
+Temporada 2: Introduzida como a nova garota da escola, inicialmente rejeitada por Mike. Com seu jeito forte e independente, conquista o grupo e começa um relacionamento com Lucas. Vive em conflito com o irmão violento, Billy.
+
+Temporada 3: Sofre abusos emocionais por parte de Billy, mas encontra em Eleven uma amiga verdadeira. Ajuda o grupo a lutar contra o Devorador de Mentes, sendo profundamente afetada pela morte de Billy.
+
+Temporada 4: É uma das personagens mais complexas, vivendo luto e isolamento após a morte de Billy. Torna-se alvo de Vecna por seus traumas e sentimentos de culpa. Sua luta psicológica culmina na cena icônica de “Running Up That Hill”, em que escapa da morte temporariamente. No final, é gravemente ferida e entra em coma, deixando o destino incerto.`,
         age: 16,
-        firstEp: "Season 2, Chapter 1: MADMAX",
+        firstEp: "S02EP01",
         alive: true
       }
     }),
@@ -51,7 +73,15 @@ async function main() {
       data: {
         name: "Will Byers",
         image: "https://i.pinimg.com/1200x/b0/d5/b7/b0d5b7beae5bb9616b19a2fa1f5e57a5.jpg",
-        description: "O desaparecimento de Will na primeira temporada é o estopim da trama de Stranger Things. Preso no Mundo Invertido, ele passa por experiências traumáticas que o deixam com uma conexão permanente com aquela dimensão sombria. Sensível e criativo, Will é apaixonado por desenhos e jogos de RPG, mas sua inocência é marcada pela dor de ter sido alvo das forças sobrenaturais. Ao longo da série, ele luta para se readaptar à vida normal, ao mesmo tempo em que serve como uma espécie de “ponte viva” entre Hawkins e o Mundo Invertido.",
+        description:  `O desaparecimento de Will na primeira temporada é o estopim da trama de Stranger Things. Preso no Mundo Invertido, ele passa por experiências traumáticas que o deixam com uma conexão permanente com aquela dimensão sombria. Sensível e criativo, Will é apaixonado por desenhos e jogos de RPG, mas sua inocência é marcada pela dor de ter sido alvo das forças sobrenaturais. Ao longo da série, ele luta para se readaptar à vida normal, ao mesmo tempo em que serve como uma espécie de “ponte viva” entre Hawkins e o Mundo Invertido.
+
+Temporada 1: O desaparecimento de Will dá início a toda a história. Preso no Mundo Invertido, enfrenta o Demogorgon e vive aterrorizado. Sua ausência e busca tornam-se o coração da temporada.
+
+Temporada 2: Sofre as consequências traumáticas do tempo que passou no Mundo Invertido. Desenvolve uma ligação psíquica com o Devorador de Mentes, tornando-se alvo e “espião” da criatura. Sua luta é intensa e dolorosa, resultando em um dos momentos mais emocionantes da série quando ele é exorcizado do controle da entidade.
+
+Temporada 3: É o amigo que se sente deixado de lado, pois todos estão crescendo e se apaixonando, enquanto ele deseja manter a amizade como antes. Sua sensibilidade e conexão ainda o deixam atento aos sinais do Mundo Invertido.
+
+Temporada 4: Morando na Califórnia, demonstra sentimentos reprimidos (especialmente por Mike). Mostra novamente sua intuição sobrenatural ao sentir a presença de Vecna. Vive em silêncio o conflito de identidade e amizade, tornando-se uma das peças emocionais mais fortes da temporada.`,
         age: 16,
         firstEp: "S01E01",
         alive: true
@@ -62,7 +92,15 @@ async function main() {
       data: {
         name: "Lucas Sinclair",
         image: "https://i.pinimg.com/1200x/9f/ff/37/9fff374346f933fcf24ed51f88a0e506.jpg",
-        description: "Lucas é conhecido por seu pragmatismo e ceticismo, muitas vezes servindo como a voz da razão dentro do grupo. No início, é o mais desconfiado em relação a Onze, mas com o tempo passa a reconhecê-la como parte essencial da equipe. Ele é determinado e mostra grande habilidade em situações de combate, não hesitando em arriscar-se para proteger os amigos. Seu relacionamento com Max adiciona uma camada emocional importante à sua trajetória, mostrando sua capacidade de crescer e amadurecer.",
+        description: `Lucas é conhecido por seu pragmatismo e ceticismo, muitas vezes servindo como a voz da razão dentro do grupo. No início, é o mais desconfiado em relação a Onze, mas com o tempo passa a reconhecê-la como parte essencial da equipe. Ele é determinado e mostra grande habilidade em situações de combate, não hesitando em arriscar-se para proteger os amigos. Seu relacionamento com Max adiciona uma camada emocional importante à sua trajetória, mostrando sua capacidade de crescer e amadurecer.
+
+Temporada 1: Inicialmente desconfiado de Eleven, mas depois reconhece sua importância. Ajuda na luta contra o Demogorgon.
+
+Temporada 2: Cresce emocionalmente ao se aproximar de Max, vivendo o início de um romance.
+
+Temporada 3: Vive entre a amizade com os garotos e o namoro com Max. Demonstra maturidade em lidar com conflitos adolescentes.
+
+Temporada 4: Sofre com o desejo de se encaixar socialmente, entrando para o time de basquete. Essa escolha gera distanciamento de seus amigos. No entanto, quando Vecna ameaça Max, Lucas prova seu amor e coragem, enfrentando Jason e lutando pela vida dela até o último momento.`,
         age: 16,
         firstEp: "S01E01",
         alive: true
@@ -73,20 +111,29 @@ async function main() {
       data: {
         name: "Dustin Henderson",
         image: "https://i.pinimg.com/1200x/31/12/fd/3112fd835dba2da3ecfdec9e501d2f1e.jpg",
-        description: "Carismático e engraçado, Dustin é o coração leve do grupo. Ele se destaca por sua inteligência, curiosidade científica e capacidade de encontrar soluções criativas para os problemas. Apesar de ser muitas vezes alvo de piadas por causa de sua condição médica (displasia cleidocraniana, que afeta seus dentes), ele nunca perde o bom humor. Sua amizade improvável com Steve Harrington é uma das mais queridas pelos fãs, mostrando como Dustin é capaz de criar laços fortes com pessoas fora de seu círculo inicial.",
+        description: `Carismático e engraçado, Dustin é o coração leve do grupo. Ele se destaca por sua inteligência, curiosidade científica e capacidade de encontrar soluções criativas para os problemas. Apesar de ser muitas vezes alvo de piadas por causa de sua condição médica (displasia cleidocraniana, que afeta seus dentes), ele nunca perde o bom humor. Sua amizade improvável com Steve Harrington é uma das mais queridas pelos fãs, mostrando como Dustin é capaz de criar laços fortes com pessoas fora de seu círculo inicial.
+
+Temporada 1: É o mais divertido e otimista do grupo. Ajuda nas buscas por Will e se aproxima de Eleven. Sua curiosidade e inteligência o destacam.
+
+Temporada 2: Encontra Dart, uma pequena criatura que ele acredita ser inofensiva, mas que depois revela-se parte da ameaça do Demogorgon. Essa trama mostra sua ingenuidade e coragem. Também desenvolve amizade com Steve Harrington, criando uma das duplas mais amadas da série.
+
+Temporada 3: Retorna do acampamento de ciências com novidades, incluindo a revelação de sua namorada Suzie. Ajuda a decifrar a mensagem russa junto de Steve, Robin e Erica. É peça-chave para expor o plano dos russos em Hawkins.
+
+Temporada 4: Continua sendo o cérebro estratégico do grupo. Se aproxima de Eddie Munson e o ajuda a enfrentar as ameaças de Vecna. Demonstra lealdade profunda a seus amigos e grande bravura.`,
         age: 15,
         firstEp: "S01E01",
         alive: true
       }
     }),
+    
 
     prisma.character.create({
       data: {
         name: "Joyce Byers",
         image: "https://i.pinimg.com/736x/7b/f2/bd/7bf2bd207fa1866867c68149a807efe5.jpg",
-        description: "Joyce é uma das personagens mais resilientes da série. Mãe solteira de Will e Jonathan, ela enfrenta o desaparecimento de seu filho mais novo com uma mistura de desespero e determinação. Mesmo quando todos ao seu redor duvidam dela, Joyce insiste em seguir seus instintos, que a levam a descobrir a existência do Mundo Invertido. Sua coragem e intuição a tornam uma figura central na luta contra as ameaças sobrenaturais, sempre colocando os filhos em primeiro lugar, mesmo diante do perigo mortal.",
-        age: 45,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        description: `Joyce é o coração materno de Stranger Things. Desde o desaparecimento de Will, sua coragem e intuição se tornam forças que desafiam o impossível. Determinada e emocional, ela é a primeira a perceber a presença do Mundo Invertido e nunca hesita em proteger seus filhos, mesmo quando todos duvidam dela. Ao longo das temporadas, Joyce se transforma de uma mãe desesperada em uma mulher resiliente e inteligente, enfrentando perigos sobrenaturais e até conspirações governamentais. Na quinta temporada, continua sendo o elo emocional que une o grupo, guiada por seu instinto inabalável de proteger quem ama.`,
+        age: 46,
+        firstEp: "S01EP01",
         alive: true
       }
     }),
@@ -95,9 +142,9 @@ async function main() {
       data: {
         name: "Jim Hopper",
         image: "https://i.pinimg.com/736x/ff/33/cf/ff33cf7162ad72628547047e837edb8d.jpg",
-        description: "Chefe de polícia de Hawkins, pai adotivo de Onze. Sobreviveu ao cativeiro na Rússia.",
-        age: 43,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        description: "Hopper é o chefe de polícia de Hawkins e um dos pilares emocionais da trama. Marcado pela perda de sua filha, ele encontra em Eleven uma nova razão para viver, assumindo o papel de pai protetor. Seu arco mistura ação, dor e redenção. Após ser dado como morto no final da terceira temporada, reaparece preso na Rússia, sobrevivendo contra todas as probabilidades. Na quinta temporada, Hopper se consolida como o símbolo da força e do sacrifício, disposto a enfrentar qualquer ameaça para salvar sua família escolhida.",
+        age: 48,
+        firstEp: "S01EP01",
         alive: true
       }
     }),
@@ -106,9 +153,9 @@ async function main() {
       data: {
         name: "Martin Brenner",
         image: "https://i.pinimg.com/736x/68/5d/b9/685db99b4154e6268df2c87c028d3208.jpg",
-        description: "Dr. Papa, cientista chefe do Laboratório Hawkins responsável pelos experimentos em crianças.",
+        description: "Dr. Martin Brenner é o cientista responsável pelos experimentos do Laboratório de Hawkins e pela criação de Eleven. Frio, manipulador e obcecado pelo controle, Brenner representa o lado sombrio da ciência sem ética. Apesar de sua crueldade, há momentos que revelam um afeto distorcido por Eleven, como se fosse um pai que jamais aprendeu a amar de forma saudável. Ele sobreviveu a diversos ataques, mas encontra seu fim na quarta temporada, tentando salvar Eleven durante a invasão militar ao deserto. Sua morte simboliza o fim de uma era de manipulação, mas também levanta dilemas morais sobre suas verdadeiras intenções.",
         age: 65,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        firstEp: "S01EP01",
         alive: false
       }
     }),
@@ -117,9 +164,9 @@ async function main() {
       data: {
         name: "Alexei",
         image: "https://hips.hearstapps.com/hmg-prod/images/alexei-smirnoff-stranger-things-3-1562700391.png?crop=0.998xw:1.00xh;0.00160xw,0&resize=1200:*",
-        description: "Cientista russo que ajudou o grupo. Amava refrigerantes americanos e parques de diversão.",
+        description: `Alexei é o cientista russo apresentado na terceira temporada. Sua timidez e ingenuidade conquistaram o público rapidamente, especialmente por sua afeição por doces e sua amizade improvável com Murray. Mesmo com pouco tempo de tela, Alexei se tornou um símbolo da inocência perdida no conflito entre potências. Sua morte nas mãos de um assassino russo é uma das cenas mais tristes e inesperadas da série, marcando o fim de um personagem que representava esperança e humanidade em meio ao caos.`,
         age: 35,
-        firstEp: "Season 3, Chapter 2: The Mall Rats",
+        firstEp: "S03EP03",
         alive: false
       }
     }),
@@ -130,7 +177,7 @@ async function main() {
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KKtk5qm7NBZMiBpe0MokQlQh6gHQNHoJLQ&s",
         description: "Melhor amigo de Jonathan na Califórnia, entregador de pizza descontraído e leal.",
         age: 18,
-        firstEp: "Season 4, Chapter 1: The Hellfire Club",
+        firstEp: "S04EP01",
         alive: true
       }
     }),
@@ -161,9 +208,9 @@ async function main() {
       data: {
         name: "Billy Hargrove",
         image: "https://miro.medium.com/v2/resize:fit:382/1*Mgm1hZuxoctTuQcQZ1r3GA.png",
-        description: "Irmão de Max, inicialmente antagonista, vítima do Devorador de Mentes.",
-        age: 21,
-        firstEp: "Season 2, Chapter 1: MADMAX",
+        description: `Billy é o meio-irmão de Max e um dos personagens mais complexos da série. Inicialmente apresentado como o típico vilão arrogante e agressivo, ele revela ao longo das temporadas um passado marcado por abuso e dor. Sob a influência do Devorador de Mentes, Billy se torna o principal antagonista da terceira temporada, mas no momento final, demonstra humanidade ao se sacrificar para salvar Max e os demais. Sua morte é um dos momentos mais poderosos da série, transformando um personagem odiado em um mártir trágico.`,
+        age: 18,
+        firstEp: "S02EP01",
         alive: false
       }
     }),
@@ -172,9 +219,9 @@ async function main() {
       data: {
         name: "Bob Newby",
         image: "https://imgix.bustle.com/uploads/image/2017/10/23/1d2aeb32-d8a0-4635-8a6b-ac03d509649f-bob-stranger-things.jpg?w=1200&h=1200&fit=crop&crop=faces&fm=jpg",
-        description: "Namorado de Joyce, trabalhador da RadioShack. Morreu salvando o grupo dos Demodogs.",
-        age: 48,
-        firstEp: "Season 2, Chapter 2: Trick or Treat, Freak",
+        description: `Bob foi o namorado gentil e otimista de Joyce Byers na segunda temporada. Representava o lado mais puro e humano da série — um homem simples que apenas desejava uma vida tranquila com a mulher que amava. Mesmo sem entender completamente os horrores de Hawkins, Bob demonstrou coragem até o fim, sacrificando-se para salvar Joyce, Will e Hopper do laboratório. Sua morte é uma das mais emocionantes de Stranger Things, lembrando que heróis também podem ser pessoas comuns.`,
+        age: 43,
+        firstEp: "S02EP02",
         alive: false
       }
     }),
@@ -282,9 +329,9 @@ async function main() {
       data: {
         name: "Érica Sinclair",
         image: "https://substackcdn.com/image/fetch/$s_!9KHk!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd38a9422-dad0-4fd0-8345-8a1ac827b081_1500x1000.jpeg",
-        description: "Irmã mais nova de Lucas, garota esperta e corajosa que ajudou na missão russa.",
-        age: 11,
-        firstEp: "Season 2, Chapter 2: Trick or Treat, Freak",
+        description: `Erica é a irmã mais nova de Lucas e uma das personagens mais carismáticas da série. Com sua inteligência afiada e humor sarcástico, rapidamente se destaca e ganha espaço entre os protagonistas. Mesmo sendo mais jovem, demonstra coragem e curiosidade incomuns, tornando-se parte essencial das investigações a partir da terceira temporada. Erica representa o espírito cético e ousado da nova geração. Na quinta temporada, continua provando que a bravura não tem idade.`,
+        age: 13,
+        firstEp: "S02EP02",
         alive: true
       }
     }),
@@ -295,7 +342,7 @@ async function main() {
         image: "https://i.pinimg.com/736x/d0/df/e5/d0dfe5d1e0edd21d02503ebb9ce12df1.jpg",
         description: "Colega jornalista de Nancy Wheeler, segunda vítima de Vecna.",
         age: 17,
-        firstEp: "Season 4, Chapter 1: The Hellfire Club",
+        firstEp: "S04EP01",
         alive: false
       }
     }),
@@ -306,7 +353,7 @@ async function main() {
         image: "https://i.pinimg.com/736x/f9/a4/33/f9a4334e3e01ada60eca21af84311feb.jpg",
         description: "Assassino e soldado russo, principal antagonista humano da 3ª temporada.",
         age: 40,
-        firstEp: "Season 3, Chapter 2: The Mall Rats",
+        firstEp: "S03EP02",
         alive: false
       }
     }),
@@ -337,9 +384,9 @@ async function main() {
       data: {
         name: "Jonathan Byers",
         image: "https://i.pinimg.com/1200x/4c/43/ac/4c43acef1ce7be842cabae07199eb3db.jpg",
-        description: "Irmão mais velho de Will, fotógrafo introvertido. Namorado de Nancy Wheeler.",
-        age: 18,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        description: `Jonathan é o irmão mais velho de Will e uma das figuras mais sensíveis da série. Fotógrafo introspectivo, carrega o peso das responsabilidades familiares após a ausência do pai. Sua coragem silenciosa e empatia o tornam fundamental nas investigações sobre o Mundo Invertido. O relacionamento com Nancy o humaniza ainda mais, mostrando um amor construído na adversidade. Na quinta temporada, Jonathan enfrenta novos desafios pessoais enquanto tenta proteger aqueles que ama.`,
+        age: 21,
+        firstEp: "S01EP01",
         alive: true
       }
     }),
@@ -361,9 +408,9 @@ async function main() {
       data: {
         name: "Karen Wheeler",
         image: "https://i.pinimg.com/1200x/1e/60/07/1e6007e7c517512a4032b5b89fda5500.jpg",
-        description: "Mãe de Mike e Nancy Wheeler, dona de casa dedicada mas às vezes ingênua.",
+        description: `Karen é a mãe de Mike, Nancy e Holly Wheeler. Representa a típica dona de casa americana dos anos 80, mas com um lado sensível e protetor que cresce conforme os perigos se aproximam. Embora não entenda completamente o que acontece em Hawkins, Karen mantém a família unida e é uma figura de estabilidade em meio ao caos. Nas temporadas mais recentes, demonstra desejo de se libertar das convenções e encontrar mais propósito, simbolizando o amadurecimento das mães da série.`,
         age: 42,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        firstEp: "S01EP01",
         alive: true
       }
     }),
@@ -374,7 +421,7 @@ async function main() {
         image: "https://i.pinimg.com/1200x/18/b8/9b/18b89b9318c8eaac629c769a4933ae60.jpg",
         description: "fazer",
         age: 30,
-        firstEp: "https://i.pinimg.com/1200x/18/b8/9b/18b89b9318c8eaac629c769a4933ae60.jpg",
+        firstEp: "S0EP0",
         alive: true
       }
     }),
@@ -385,7 +432,7 @@ async function main() {
         image: "https://i.pinimg.com/1200x/42/8a/31/428a3164de422eb91980349073b3a475.jpg",
         description: "Prefeito corrupto de Hawkins na 3ª temporada, envolvido com os russos.",
         age: 50,
-        firstEp: "Season 3, Chapter 1: Suzie, Do You Copy?",
+        firstEp: "S03EP01",
         alive: true
       }
     }),
@@ -396,7 +443,7 @@ async function main() {
         image: "https://i.pinimg.com/736x/1f/c0/75/1fc075be582235db7f5f828b025f4087.jpg",
         description: "Ex-marido abusivo de Joyce, pai biológico de Jonathan e Will.",
         age: 48,
-        firstEp: "Season 1, Chapter 3: Chapter Three: Holly, Jolly",
+        firstEp: "S01EP03",
         alive: true
       }
     }),
@@ -405,9 +452,9 @@ async function main() {
       data: {
         name: "Murray Bauman",
         image: "https://i.pinimg.com/736x/67/7d/06/677d063527362ab1a8527fc3e60cd13c.jpg",
-        description: "Jornalista investigativo paranóico e teórico da conspiração. Aliado importante do grupo.",
-        age: 50,
-        firstEp: "Season 2, Chapter 5: Dig Dug",
+        description: `Murray é o excêntrico ex-jornalista que se torna investigador e teórico da conspiração. Apesar de seu jeito paranoico, suas hipóteses acabam se mostrando verdadeiras, tornando-o peça-chave na luta contra o governo e o Mundo Invertido. Com humor ácido e perspicácia, ajuda Hopper, Joyce e os outros em diversas missões, inclusive na Rússia. Na quinta temporada, Murray continua sendo o cérebro cínico e imprevisível do grupo, misturando sarcasmo e coragem.`,
+        age: 49,
+        firstEp: "S02EP06",
         alive: true
       }
     }),
@@ -416,9 +463,9 @@ async function main() {
       data: {
         name: "Nancy Wheeler",
         image: "https://i.pinimg.com/736x/ee/8a/dc/ee8adc9a51ac765a2830431387cbe2ce.jpg",
-        description: "Jornalista determinada e irmã mais velha de Mike. Combatente contra as criaturas do Mundo Invertido.",
-        age: 18,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        description: `Nancy é a irmã de Mike e uma das personagens mais determinadas da série. Começa como uma adolescente comum, mas após a morte de sua amiga Barbara, torna-se uma investigadora destemida, comprometida em revelar a verdade sobre o que acontece em Hawkins. Sua relação com Jonathan e Steve é marcada por dilemas emocionais, mas sua principal motivação sempre foi a justiça. Na quinta temporada, Nancy mostra-se mais madura e estrategista, desempenhando papel essencial na luta contra o mal.`,
+        age: 20,
+        firstEp: "S01EP01",
         alive: true
       }
     }),
@@ -473,9 +520,9 @@ async function main() {
       data: {
         name: "Robin Buckley",
         image: "https://i.pinimg.com/736x/61/9a/da/619ada72de2cfc4903ffeb67c4f30c77.jpg",
-        description: "Colega de trabalho e melhor amiga de Steve. Inteligente, sarcástica e lésbica.",
-        age: 18,
-        firstEp: "Season 3, Chapter 1: Suzie, Do You Copy?",
+        description: `Robin é apresentada como colega de trabalho de Steve no Scoops Ahoy. Inteligente, sarcástica e autêntica, rapidamente conquista o público com sua personalidade única. Sua revelação como lésbica trouxe representatividade à série, explorando temas de aceitação e amizade verdadeira. Ao longo da trama, Robin mostra coragem e vulnerabilidade, destacando-se por seu raciocínio rápido e lealdade inabalável. Na quinta temporada, continua sendo um pilar emocional e intelectual do grupo.`,
+        age: 20,
+        firstEp: "S03EP01",
         alive: true
       }
     }),
@@ -484,9 +531,9 @@ async function main() {
       data: {
         name: "Sam Owens",
         image: "https://i.pinimg.com/1200x/63/35/bb/6335bb2882c83c0c1160be990c1a97b5.jpg",
-        description: "Diretor do laboratório que substituiu Brenner, mais ético e protetor das crianças.",
+        description: `Dr. Owens substitui Brenner como diretor do Laboratório de Hawkins e se mostra uma figura mais ética e empática. Diferente de seu antecessor, tenta equilibrar a ciência com a moralidade e torna-se um aliado importante para Hopper e Eleven. Seu conhecimento técnico e diplomacia o colocam como mediador entre o governo e os jovens heróis. Na quinta temporada, Owens continua envolvido nas tentativas de conter o avanço do Mundo Invertido, lutando para proteger Hawkins das consequências catastróficas das falhas científicas do passado.`,
         age: 55,
-        firstEp: "Season 2, Chapter 2: Trick or Treat, Freak",
+        firstEp: "S02EP01",
         alive: true
       }
     }),
@@ -517,9 +564,9 @@ async function main() {
       data: {
         name: "Steve Harrington",
         image: "https://i.pinimg.com/736x/93/f4/4e/93f44e505fe2943659e7ce4a264549db.jpg",
-        description: "Ex-rei da escola que virou babá dos garotos. Trabalha na Scoops Ahoy e depois na Family Video.",
-        age: 19,
-        firstEp: "Season 1, Chapter 1: The Vanishing of Will Byers",
+        description: `Steve começou como o típico garoto popular, mas sua evolução é uma das mais marcantes da série. De namorado arrogante, torna-se um verdadeiro herói, protetor dos mais jovens e figura fraterna para Dustin e os demais. Sua coragem e altruísmo transformaram-no em um dos personagens mais amados de Stranger Things. Na quinta temporada, Steve mantém seu papel de protetor do grupo, mostrando maturidade, empatia e bravura em meio ao caos crescente de Hawkins.`,
+        age: 21,
+        firstEp: "S01EP01",
         alive: true
       }
     }),

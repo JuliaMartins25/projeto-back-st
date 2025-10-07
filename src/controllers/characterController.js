@@ -5,7 +5,14 @@ class CharacterController {
   async getAllCharacter(req, res) {
     try {
       const personagens = await CharacterModel.findAll();
-      res.json(personagens);
+
+      const status = personagens.map(p => ({
+        ...p,
+        status: p.alive ? "Vivo" : "Morto"
+      }));
+
+      res.json(status);
+
     } catch (error) {
       console.error("Erro ao buscar os personagens:", error);
       res.status(500).json({ error: "Erro ao buscar os personagens" });
@@ -23,7 +30,12 @@ class CharacterController {
         return res.status(404).json({ error: "Personagem não encontrada!" });
       }
 
-      res.json(personagem);
+      const estado = {
+        ...personagem,
+        status: personagem.alive ? "Vivo" : "Morto"
+      };
+
+      res.json(estado);
     } catch (error) {
       console.error("Erro ao buscar os personagens:", error);
       res.status(500).json({ error: "Erro ao buscar os personagens" });
@@ -34,10 +46,10 @@ class CharacterController {
   async createCharacter(req, res) {
     try {
       // Validação básica
-      const { name, image, description, age, firstEp, alive} = req.body;
+      const { name, image, description, age, firstEp, alive } = req.body;
 
       // Verifica se todos os campos da coleção foram fornecidos
-      if (!name || !image || !description || !age || !firstEp || !alive) {
+      if (!name || !image || !description || !age || !firstEp || alive === undefined) {
         return res.status(400).json({
           error: "Todos os campos são obrigatórios",
         });
